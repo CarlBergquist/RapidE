@@ -77,7 +77,7 @@ router.get('/login', (req, res) => {
 
 
 router.get('/productupload', withAuth, async (req,res) => {
-  res.render('productupload', {
+  res.render('productUpload', {
     loggedIn: req.session.logged_in,
     name: req.session.name
   })
