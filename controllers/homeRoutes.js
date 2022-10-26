@@ -51,6 +51,11 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/SignUp', (req, res) => {
+
+  res.render('signUp');
+});
+
 // Get Products
 // router.get('/', async (req, res) => {
 //   try {
